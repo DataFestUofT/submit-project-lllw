@@ -24,6 +24,7 @@ def main():
         X = np.concatenate((dataset[:, :i], dataset[:, i+1:]), axis=1)
         Y = dataset[:, i]
         model.fit(X, Y, epochs=40, batch_size=2, verbose=0)
+        # here supposed to create multiple files for each keyword, but we have combined them all into one csv file (Factor Score.csv) manually
         with open("../VNN/"+KEYWORD[i]+".csv", mode="w") as f:
             result_csv = csv.writer(f)
             result_csv.writerow(KEYWORD[0:i]+KEYWORD[i+1:])
