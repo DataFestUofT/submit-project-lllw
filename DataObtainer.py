@@ -54,32 +54,32 @@ def handle_result(result):
 # Load pre-trained models
 def load_model():
     CNN_model = models.load_model(
-        "./ModelCode/CNN.h5", custom_objects=None
+        "./Model/CNN.h5", custom_objects=None
     )
     print("----- CNN load successfully -----")
 
     LSTM_model = models.load_model(
-        "./ModelCode/LSTM.h5", custom_objects=None
+        "./Model/LSTM.h5", custom_objects=None
     )
     print("----- LSTM load successfully ------")
 
     DecisionTree_model = pickle.load(
-        open("./ModelCode/DecisionTree.pickle", "rb")
+        open("./Model/DecisionTree.pickle", "rb")
     )
     print("----- DT load successfully -----")
 
     RandomForest_model = pickle.load(
-        open("./ModelCode/RFmodel.pickle", "rb")
+        open("./Model/RFmodel.pickle", "rb")
     )
     print("RF load successfully")
 
     DTVectorizer = pickle.load(
-        open("./ModelCode/DTvectorizer.pickle", "rb")
+        open("./Model/DTvectorizer.pickle", "rb")
     )
     print("------ DTVec load successfully ------")
 
     RFVectorizer = pickle.load(
-        open("./ModelCode/RFvec.pickle", "rb")
+        open("./Model/RFvec.pickle", "rb")
     )
     print("------ RFVec load successfully ------")
 
