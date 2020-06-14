@@ -10,10 +10,10 @@
 
 https://drive.google.com/drive/folders/14LFNyMiO_RWGbJIshRu-U7yBhgW1iP-M?usp=sharing
 
-### A slide deck/app (select one) was created, and is available here: 
+### A slide deck was created, and is available here: 
 
 https://public.tableau.com/profile/colin.wan#!/vizhome/DataFest2020F1/Dashboard4?publish=yes
 
-### A video/write-up (select one) was created, and is available here:
+### A video was created, and is available here:
 
 https://www.youtube.com/watch?v=4X2azPjNtWs
