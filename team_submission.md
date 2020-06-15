@@ -18,4 +18,4 @@ https://public.tableau.com/profile/colin.wan#!/vizhome/DataFest2020F1/Dashboard4
 
 ### A video was created, and is available here:
 
-https://www.youtube.com/watch?v=4X2azPjNtWs
+https://www.youtube.com/watch?v=A2XzJTVOvAQ&feature=youtu.be
